@@ -1,0 +1,25 @@
+@import url(reset.css);
+#general-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#main-div{
+    display: grid;
+    grid-template-columns: repeat(16, 30px);
+    border: solid blue 3px;
+    border-radius: 5px;
+    width: 485px;
+}
+
+.square{
+    border: solid lightgray 5px;
+    width: 30px;
+    height: 30px;
+}
